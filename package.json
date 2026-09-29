@@ -1,0 +1,13 @@
+{
+  "name": "project-computer-store",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev:web": "corepack pnpm --filter @shop/web dev",
+    "build:web": "corepack pnpm --filter @shop/web build",
+    "lint:web": "corepack pnpm --filter @shop/web lint",
+    "dev:api": "echo TODO: initialize the Express API first",
+    "build": "echo TODO: configure workspace builds",
+    "lint": "echo TODO: configure workspace linting"
+  }
+}

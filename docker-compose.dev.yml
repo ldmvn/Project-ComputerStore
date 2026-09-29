@@ -1,0 +1,10 @@
+services:
+  mysql:
+    ports:
+      - "3306:3306"
+  api:
+    environment:
+      NODE_ENV: development
+  web:
+    environment:
+      NODE_ENV: development
